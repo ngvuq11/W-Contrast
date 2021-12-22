@@ -6,12 +6,13 @@
 2. Search for **W Contrast**
 3. Click **Install** to install it.
 4. Click **Reload** to reload the editor.
-5. File > Preferences > Color Theme > W Plus or W Normal
+5. File > Preferences > Color Theme > W Plus or W Normal or W Light
 
 ## Scheme color
 
 -   W Plus
 -   W Normal
+-   W Light
 
 ## Enable Gradient scheme
 
@@ -22,7 +23,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///Users/MyUserName/Documents/vscode.css"
+    "file:///Users/MyUserName/.vscode/extensions/ngvuq.w-contrast-0.2.0/vscode.css"
   ],
 ```
 
@@ -30,7 +31,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///C:/Users/MyUserName/Documents/vscode.css"
+    "file:///C:/Users/MyUserName/.vscode/extensions/ngvuq.w-contrast-0.2.0/vscode.css"
   ],
 ```
 
@@ -38,7 +39,7 @@
 
 ## My settings.json
 
--   If you want to know my settings.json, please [click here](https://github.com/ngvuq11/ngvuq.W-Contrast/blob/main/mysettings.json)
+-   If you want to know my settings.json, please [`click here`](https://github.com/ngvuq11/ngvuq.W-Contrast/blob/main/mysettings.json)
 
 ## Font I'm using
 
