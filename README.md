@@ -23,7 +23,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///Users/MyUserName/.vscode/extensions/ngvuq.w-contrast-0.2.0/vscode.css"
+    "file:///Users/[MyUserName]/.vscode/extensions/[extensionName]/vscode.css"
   ],
 ```
 
@@ -31,7 +31,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///C:/Users/MyUserName/.vscode/extensions/ngvuq.w-contrast-0.2.0/vscode.css"
+    "file:///C:/Users/[MyUserName]/.vscode/extensions/[extensionName]/vscode.css"
   ],
 ```
 
