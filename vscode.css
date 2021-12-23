@@ -1,0 +1,203 @@
+:root {
+    --gradient-dir1: to right bottom;
+    --gradient-dir2: to left top;
+    --gradient-dir3: to right top;
+}
+
+/* .mtk10,
+.mtk15 {
+    color: transparent;
+    background-image: linear-gradient(-45deg, #e499f1, #ff00f7, #ffc8f6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* .mtk12, */
+.mtk5 {
+    color: transparent;
+    background-image: linear-gradient(45deg, #11ff00, #00f3ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Operator mono";
+    font-style: italic;
+    font-size: 105%;
+}
+
+.mtk16 {
+    /* color: transparent;
+    background-image: linear-gradient(45deg, #ffb86c, #b4ff00);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "DM Mono"; */
+    font-family: "Apple Chancery", cursive;
+}
+
+/* .mtk11,
+.mtk9, */
+.mtk17 {
+    color: transparent;
+    background-image: linear-gradient(to right, #20e3b2, #3580d6, #2cccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Operator mono";
+}
+
+.mtk18 {
+    color: transparent;
+    background-image: linear-gradient(to right, #0e4eff, #758cbd, #00eeb7ee);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Operator mono";
+    font-style: italic;
+}
+
+.mtk3 {
+    color: transparent;
+    background-image: linear-gradient(-55deg, #d000ff, #bd93f9);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive;
+    /* Comic Sans, */
+}
+.mtk14 {
+    color: #ffa473;
+}
+/* .mtk7 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ffb86c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.mtk13 {
+    color: #00b2ca;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+    /* left: 20px !important; */
+    left: 0px !important;
+    color: #cddc39;
+}
+
+.menubar-menu-title {
+    color: #05ffba;
+    font-family: "Operator mono";
+    font-style: italic;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.monaco-workbench
+    .activitybar
+    > .content
+    :not(.monaco-menu)
+    > .monaco-action-bar
+    .action-item.checked
+    .action-label.codicon {
+    font-size: 24px;
+}
+
+/* .monaco-workbench .part.titlebar > .titlebar-drag-region {
+    background-image: linear-gradient(
+        -55deg,
+        rgb(11 3 244 / 57%),
+        rgb(244 67 54 / 50%),
+        rgb(251 7 255 / 35%)
+    );
+} */
+
+.monaco-editor .cursors-layer .cursor {
+    background-image: linear-gradient(
+        to bottom right,
+        #ff70a6,
+        #b100e8,
+        #4361ee
+    );
+}
+
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container
+    > .title
+    .tabs-container
+    > .tab.active.tab-border-top
+    > .tab-border-top-container {
+    background-size: 400% 400%;
+    background-image: linear-gradient(
+        -45deg,
+        #fc6c8f,
+        #ff2ced,
+        #ffb86c,
+        #2cccff,
+        #20e3b2,
+        #ffcc70,
+        #c850c0,
+        #4158d0
+    );
+    animation: gradientX 3s ease alternate infinite;
+    position: absolute;
+    height: 6px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* .monaco-editor .scroll-decoration {
+    display: block;
+    height: 3px;
+    background-size: 400% 400%;
+    background-image: linear-gradient(
+        -45deg,
+        #fc6c8f,
+        #ff2ced,
+        #ffb86c,
+        #2cccff,
+        #20e3b2,
+        #ffcc70,
+        #c850c0,
+        #4158d0
+    );
+    animation: gradientX 2s ease alternate infinite;
+} */
+
+.monaco-editor .detected-link,
+.monaco-editor .detected-link-active {
+    text-decoration-color: rgb(139 195 74 / 53%);
+}
+
+.monaco-workbench
+    .activitybar
+    > .content
+    :not(.monaco-menu)
+    > .monaco-action-bar
+    .action-label.codicon {
+    color: #fff !important;
+    font-size: inherit;
+}
+
+.monaco-editor .line-numbers {
+    font-family: "Operator mono";
+    font-style: italic;
+    font-weight: 200;
+    color: #9a86fd;
+}
+
+@keyframes gradientX {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

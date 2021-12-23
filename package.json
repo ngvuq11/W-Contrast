@@ -1,16 +1,27 @@
 {
-    "name": "ngvuq.w-contrast-0.2.0",
+    "name": "w-contrast",
     "displayName": "W Contrast",
     "description": "Contrast Theme - base on Dracula Official Theme",
-    "version": "0.2.0",
+    "version": "0.2.2",
     "publisher": "ngvuq",
     "engines": {
-        "vscode": "^1.61.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ngvuq11/W-Contrast"
+    },
     "icon": "icon.png",
+    "keywords": [
+        "theme",
+        "W",
+        "light",
+        "dark",
+        "Contrast"
+    ],
     "contributes": {
         "themes": [
             {
@@ -22,7 +33,16 @@
                 "label": "ngvuq - W Normal",
                 "uiTheme": "vs-dark",
                 "path": "./themes/WNormal.json"
+            },
+            {
+                "label": "ngvuq - W Light",
+                "uiTheme": "vs",
+                "path": "./themes/WLight.json"
             }
         ]
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "fast-xml-parser": "^4.0.0-beta.8"
     }
 }
