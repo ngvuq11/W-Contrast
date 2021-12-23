@@ -1,4 +1,5 @@
 # W Contrast Theme for Visual Studio Code by ngvuq (FrontEnd Developer)
+-  Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/)
 
 ## Installation
 
