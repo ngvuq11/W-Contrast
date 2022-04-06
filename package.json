@@ -1,48 +1,60 @@
 {
-    "name": "w-contrast",
-    "displayName": "W Contrast",
-    "description": "Contrast Theme - base on Dracula Official Theme",
-    "version": "0.2.2",
-    "publisher": "ngvuq",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ngvuq11/W-Contrast"
-    },
-    "icon": "icon.png",
-    "keywords": [
-        "theme",
-        "W",
-        "light",
-        "dark",
-        "Contrast"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "ngvuq - W Plus ",
-                "uiTheme": "vs-dark",
-                "path": "./themes/WPlus.json"
-            },
-            {
-                "label": "ngvuq - W Normal",
-                "uiTheme": "vs-dark",
-                "path": "./themes/WNormal.json"
-            },
-            {
-                "label": "ngvuq - W Light",
-                "uiTheme": "vs",
-                "path": "./themes/WLight.json"
-            }
-        ]
-    },
-    "dependencies": {
-        "axios": "^0.24.0",
-        "fast-xml-parser": "^4.0.0-beta.8"
-    }
+  "name": "w-contrast",
+  "displayName": "W Contrast",
+  "description": "Contrast Theme - base on Dracula Official Theme",
+  "version": "1.0.1",
+  "publisher": "ngvuq",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngvuq11/W-Contrast"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "W",
+    "light",
+    "dark",
+    "contrast",
+    "night",
+    "ngvuq"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ngvuq - W Plus ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/WPlus.json"
+      },
+      {
+        "label": "ngvuq - W Normal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/WNormal.json"
+      },
+      {
+        "label": "ngvuq - W Light",
+        "uiTheme": "vs",
+        "path": "./themes/WLight.json"
+      },
+      {
+        "label": "ngvuq - W Night",
+        "uiTheme": "vs",
+        "path": "./themes/WNight.json"
+      },
+      {
+        "label": "ngvuq - W Dark",
+        "uiTheme": "vs",
+        "path": "./themes/WDark.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fast-xml-parser": "^4.0.0-beta.8"
+  }
 }
