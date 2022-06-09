@@ -38,6 +38,4 @@
 
 - SF Mono
 
-## enjoy
-
-**Enjoy!**
+## Enjoy :D
