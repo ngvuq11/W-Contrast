@@ -1,6 +1,6 @@
 # W Contrast Theme for Visual Studio Code
 
-- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) [`Instagram`](https://www.instagram.com/__n0wayy/)
+- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) | [`Instagram`](https://www.instagram.com/__n0wayy/)
 
 ## Installation
 
@@ -32,7 +32,7 @@
   ],
 ```
 
-- If you're in trouble, please contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) [`Instagram`](https://www.instagram.com/__n0wayy/)
+- If you're in trouble, please contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) | [`Instagram`](https://www.instagram.com/__n0wayy/)
 
 ## Font I'm using
 
