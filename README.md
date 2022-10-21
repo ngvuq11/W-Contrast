@@ -1,6 +1,6 @@
 # Theme for Visual Studio Code
 
-- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/)
+- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) [`Instagram`](https://www.instagram.com/__n0wayy/)
 
 ## Installation
 
@@ -12,11 +12,11 @@
 
 ## Enable customize style of editor
 
-- Install Custom CSS and JS Loader Extension
-- Download file `vscode.css` by [`click here`](https://github.com/ngvuq11/ngvuq.W-Contrast/blob/main/vscode.css)
+- Install [`Custom CSS and JS Loader`](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+- Download file [`vscode.css`](https://github.com/ngvuq11/ngvuq.W-Contrast/blob/main/vscode.css)
 - Copy `vscode.css` to a location on your machine, such as your user folder. Copy the file path and add it to your VS code `settings.json`.
 
-- On Mac it might look something like the snippet below:
+- On Mac / Linux:
 
 ```
 "vscode_custom_css.imports": [
@@ -24,7 +24,7 @@
   ],
 ```
 
-- On Window it might look something like the snippet below:
+- On Windows:
 
 ```
 "vscode_custom_css.imports": [
@@ -32,7 +32,7 @@
   ],
 ```
 
-- If you don't know how to add custom CSS path above, please contact me: (https://www.facebook.com/ngvuq.11/)
+- If you're in trouble, please contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) [`Instagram`](https://www.instagram.com/__n0wayy/)
 
 ## Font I'm using
 
