@@ -1,8 +1,8 @@
 {
   "name": "w-contrast",
   "displayName": "W Contrast",
-  "description": "Contrast Theme - base on Dracula Official Theme",
-  "version": "1.0.1",
+  "description": "Base on Dracula Official Theme",
+  "version": "1.0.2",
   "publisher": "ngvuq",
   "engines": {
     "vscode": "^1.63.0"
@@ -22,7 +22,9 @@
     "dark",
     "contrast",
     "night",
-    "ngvuq"
+    "ngvuq",
+    "dracula",
+    "dracula-theme"
   ],
   "contributes": {
     "themes": [

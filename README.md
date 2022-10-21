@@ -10,7 +10,7 @@
 4. Click **Reload** to reload the editor.
 5. **File > Preferences > Color Theme > Select Theme**
 
-## Enable Gradient scheme
+## Enable customize style of editor
 
 - Install Custom CSS and JS Loader Extension
 - Download file `vscode.css` by [`click here`](https://github.com/ngvuq11/ngvuq.W-Contrast/blob/main/vscode.css)
@@ -20,7 +20,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///Users/[MyUserName]/.vscode/extensions/[extensionName]/vscode.css"
+    "file:////Users/[your-name-user]/.vscode/extensions/[extenssion-name]/vscode.css"
   ],
 ```
 
@@ -28,7 +28,7 @@
 
 ```
 "vscode_custom_css.imports": [
-    "file:///C:/Users/[MyUserName]/.vscode/extensions/[extensionName]/vscode.css"
+    "file:///C:/Users/[your-name-user]/.vscode/extensions/[extenssion-name]/vscode.css"
   ],
 ```
 
@@ -36,6 +36,7 @@
 
 ## Font I'm using
 
-- SF Mono
+- SF Mono Ligatures
+- Operator Mono
 
 ## Enjoy :D
