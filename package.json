@@ -2,7 +2,7 @@
   "name": "w-contrast",
   "displayName": "W Contrast",
   "description": "Base on Dracula Official Theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "ngvuq",
   "engines": {
     "vscode": "^1.63.0"
