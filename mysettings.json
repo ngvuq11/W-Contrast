@@ -37,7 +37,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "files.trimTrailingWhitespace": true,
   "vscode_custom_css.imports": [
-    "file:///C:/Users/QUOC/.vscode/extensions/ngvuq.w-contrast-0.2.2/vscode.css"
+    "file:///C:/Users/QUOC/.vscode/extensions/ngvuq.w-theme-2.0.1/vscode.css"
   ],
 
   "editor.renderLineHighlight": "none",
