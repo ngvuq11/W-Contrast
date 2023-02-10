@@ -1,4 +1,4 @@
-# W Contrast Theme for Visual Studio Code
+# W Themes for Visual Studio Code
 
 - Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) | [`Instagram`](https://www.instagram.com/__n0wayy/)
 
