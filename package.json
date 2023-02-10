@@ -1,11 +1,11 @@
 {
-  "name": "w-contrast",
-  "displayName": "W Contrast",
-  "description": "Base on Dracula Official Theme",
-  "version": "1.0.3",
+  "name": "w-theme",
+  "displayName": "W Theme",
+  "description": "W theme for visual studio code",
+  "version": "1.0.4",
   "publisher": "ngvuq",
   "engines": {
-    "vscode": "^1.63.0"
+    "vscode": "^1.75.1"
   },
   "categories": [
     "Themes"
@@ -24,34 +24,46 @@
     "night",
     "ngvuq",
     "dracula",
-    "dracula-theme"
+    "dracula-theme",
+    "github",
+    "console.log"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "ngvuq - W Plus ",
+        "label": "W - Contrast Plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/WPlus.json"
+        "path": "./themes/w-contrast-plus.json"
       },
       {
-        "label": "ngvuq - W Normal",
+        "label": "W - Contrast Normal",
         "uiTheme": "vs-dark",
-        "path": "./themes/WNormal.json"
+        "path": "./themes/w-contrast-normal.json"
       },
       {
-        "label": "ngvuq - W Light",
+        "label": "W Light",
         "uiTheme": "vs",
-        "path": "./themes/WLight.json"
+        "path": "./themes/w-light.json"
       },
       {
-        "label": "ngvuq - W Night",
+        "label": "W Night",
         "uiTheme": "vs",
-        "path": "./themes/WNight.json"
+        "path": "./themes/w-night.json"
       },
       {
-        "label": "ngvuq - W Dark",
+        "label": "W Contrast Dark",
         "uiTheme": "vs",
-        "path": "./themes/WDark.json"
+        "path": "./themes/w-contrast-dark.json"
+      },
+      {
+        "label": "W Github Light",
+        "uiTheme": "vs",
+        "path": "./themes/w-github-light.json"
+      },
+      {
+        "label": "W Lovely Light",
+        "uiTheme": "vs",
+        "path": "./themes/w-lovely-light.json"
       }
     ]
   },
