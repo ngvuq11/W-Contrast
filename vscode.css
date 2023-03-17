@@ -1,29 +1,29 @@
 :root {
   --size: 5px;
 }
-.mtk10,
+/* .mtk10,
 .mtk15 {
   color: transparent;
   background-image: linear-gradient(-45deg, #e499f1, #ff00f7, #ffc8f6);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .mtk5 {
-  color: transparent;
-  background-image: linear-gradient(45deg, #0ea903, #00f3ff);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-family: "Operator mono";
+  /* color: transparent; */
+  /* background-image: linear-gradient(45deg, #0ea903, #00f3ff); */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  /* font-family: "Operator mono";
   font-style: italic;
   font-size: 100%;
   font-weight: 400;
-  font-style: italic;
+  font-style: italic; */
 }
 
-.mtk16 {
+/* .mtk16 {
   color: transparent;
   background-image: linear-gradient(45deg, #ffb86c, #b4ff00);
   background-clip: text;
@@ -65,20 +65,103 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
-.mtk13 {
+/* .mtk13 {
   color: #00b2ca;
 }
 
 .monaco-editor .line-numbers.active-line-number {
   color: #cddc39;
+} */
+
+/* close tab */
+.codicon-close:before {
+  content: '🧡';
+  font-size: 12px;
+}
+/* user */
+.codicon-accounts-view-bar-icon:before {
+  content: '💔';
+}
+/* setting */
+.codicon-settings-view-bar-icon:before {
+    content: '🍀';
+}
+/* file */
+.codicon-explorer-view-icon:before {
+  content: '🍒';
+}
+/* search */
+.codicon-search-view-icon:before {
+    content: '🌿';
+}
+/* git */
+.codicon-source-control-view-icon:before {
+  content: '🌺';
+}
+/* extension */
+.codicon-extensions-view-icon:before {
+  content: '🍏';
+}
+/* debug */
+.codicon-run-view-icon:before {
+  content: '🌼';
+}
+/* gitlens */
+.codicon-gitlens-gitlens:before {
+  content: '🍄';
+}
+/* toolbar-more */
+.codicon-toolbar-more:before {
+  content: '💦';
 }
 
 .monaco-editor .cursors-layer .cursor {
-  background-image: linear-gradient(to bottom right, #ff70a6, #b100e8, #4361ee);
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
 }
 
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  height: 3px;
+  background-color: #3eecac;
+  background-image: linear-gradient(
+    19deg,
+    #3eecac 0%,
+    #fd8cf1 44%,
+    #666ccb 100%
+  );
+  background-size: 300% 200%;
+  animation: gradient 6s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.monaco-editor .line-numbers {
+  font-family: "Operator mono";
+  font-style: italic;
+  font-size: 100%;
+  font-weight: 400;
+  color: #20e3b2;
+}
+
+/*
 .monaco-workbench
   .part.editor
   > .content
@@ -192,4 +275,4 @@
   border-left: 0;
   border-bottom: 0;
   border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
-}
+} */
