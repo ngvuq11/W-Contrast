@@ -116,6 +116,27 @@
 .codicon-toolbar-more:before {
   content: '💦';
 }
+.monaco-workbench.vs-dark .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress {
+  background-image: url(https://raw.githubusercontent.com/quocnguyenvu/W-Themes/main/pngwing.com.png);
+}
+.monaco-workbench .part.editor>.content .editor-group-container>.editor-group-watermark>.letterpress{
+  aspect-ratio: 9/16;
+}
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title{
+  color: transparent;
+  background-image: linear-gradient(
+    19deg,
+    #3eecac 0%,
+    #fd8cf1 44%,
+    #666ccb 100%
+  );;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Operator mono";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+}
 
 .monaco-editor .cursors-layer .cursor {
   background-color: #ffdee9;
@@ -160,7 +181,18 @@
   font-weight: 400;
   color: #20e3b2;
 }
-
+.editor-container{
+  background-image: url(https://raw.githubusercontent.com/quocnguyenvu/W-Themes/main/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+/* .editor-container{
+  background: transparent !important;
+} */
+.monaco-editor, .monaco-editor-background{
+  background: rgba(26, 27, 46, 0.8) !important;
+}
 /*
 .monaco-workbench
   .part.editor
